@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href="style.css">
+</head>
+<body>
+
+    <div>
+        <a id = "logoLink" href="https://www.arup.com/" target="_blank">
+        <img id="logo" src = "images/logo.png"></a>
+    </div>
+
+    <h1>Customer Feedback</h1>
+
+    <form id="survey" action="https://formsubmit.co/justasima@gmail.com" method="POST">
+        <label for="name">Name</label><input id="name" class = "formBox" type="text">
+        <label for="dob">Date of Birth</label><input id="dob"  class = "formBox" type="date">
+        <label for="email">Email</label><input id="email"  class = "formBox" type="email">
+        <label for="projectName">Project Name</label><input id="projectName"  class = "formBox" type="text">
+        <label for="range">How satsified are you with ARUP's services?</label><input id="range"  class = "formBox" type="range">
+    
+        <p id = "checkboxID">Which ARUP service are you giving feedback on?</p>
+        <input type="checkbox" id="Advisory" name="Advisory" value="Advisory"><label id = "checkboxLabel" for="Advisory">Advisory Services</label><br>
+        <input type="checkbox" id="Buildings" name="Buildings" value="Buildings"><label id = "checkboxLabel" for="Buildings"> Buildings</label><br>
+        <input type="checkbox" id="Digital" name="Digital" value="Digital"><label id = "checkboxLabel" for="Digital"> Digital</label><br>
+        <input type="checkbox" id="Infrastructure" name="Infrastructure" value="Infrastructure"><label id = "checkboxLabel" for="Infrastructure"> Infrastructure</label><br>
+        <input type="checkbox" id="Planning" name="Planning" value="Planning"><label id = "checkboxLabel" for="Planning"> Planning</label><br>
+        <input type="checkbox" id="TechConsulting" name="TechConsulting" value="TechConsulting"><label id = "checkboxLabel" for="TechConsulting"> Technical Consulting</label>
+
+        <p id="radioID">Would you recommend ARUP to others?</p>
+        <input type="radio" id="definitely" name = "recommendation" value="definitely"><label id="radioLabel" for="definitely">Definitely</label><br>
+        <input type="radio" id="maybe" name = "recommendation" value="maybe"><label id="radioLabel" for="maybe">Maybe</label><br>
+        <input type="radio" id="no" name = "recommendation" value="no"><label id="radioLabel" for="no">No</label>
+
+        <label for="comments" >Additional Comments</label><textarea id = "comments" name="comment" form="survey" placeholder="Enter comment here"></textarea>
+    
+        <input id="submit" type="submit" value="Submit">
+    </form>
+
+     
+</body>
+</html>

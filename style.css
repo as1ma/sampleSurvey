@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(to bottom right, rgba(252, 252, 252, 0), rgb(60, 60, 102));
+}
+
+#logo{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    background-color: rgba(207, 9, 9, 0.774);
+    color: white;
+    width:40em;
+    padding:1em;
+    margin: 20em;
+    margin-top: 2em;
+    padding-left: 3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    font-size: large;
+    display:block;
+    padding-top: 1em;
+    
+}
+
+#radioID{
+    font-size: large;
+    font-weight: bold;
+}
+
+#radioLabel{
+    display: inline-flex;
+    padding:0em;
+    font-size: medium;
+    padding-bottom: 1em;
+}
+
+#checkboxID{
+    font-size: large;
+    font-weight: bold;
+}
+
+#checkboxLabel{
+    display: inline-flex;
+    padding:0em;
+    font-size: medium;
+    padding-bottom: 1em;
+
+}
+.formBox{
+    width: 40em;
+    height: 2em;
+}
+
+#comments{
+    min-height: 10em; 
+    width:40em;
+    resize: vertical;
+}
+
+#submit{
+    display: block;
+    width: 30%;
+    padding: 0.75rem;
+    margin-top: 1em;
+    margin-left:15em;
+    background: rgb(32, 17, 95);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
